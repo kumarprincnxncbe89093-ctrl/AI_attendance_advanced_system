@@ -6,7 +6,7 @@ import io
 
 @st.dialog("Share Class Link")
 def share_subject_dialog(subject_name,subject_code):
-    app_domain="prince8564.streamlit.app"
+    app_domain="aiattendance2354.streamlit.app"
     join_url=f"{app_domain}/?join-code={subject_code}"
 
     st.markdown(
